@@ -1,6 +1,7 @@
 package com.dk.cucumber.runners;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.Test;
 
 /*
 // This is for JUnit not for TestNG
@@ -21,4 +22,8 @@ import io.cucumber.testng.CucumberOptions;
 )
 public class BaseRunner extends AbstractTestNGCucumberTests {
 
+        @Test
+        public void testSample() {
+                System.out.println("Testing Jenkins in my Cucumber Project BDD");
+        }
 }
