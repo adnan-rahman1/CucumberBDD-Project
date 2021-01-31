@@ -24,6 +24,6 @@ public class BaseRunner extends AbstractTestNGCucumberTests {
 
         @Test
         public void testSample() {
-                System.out.println("Running from jenkins 006");
+                System.out.println("Running from jenkins 007");
         }
 }
